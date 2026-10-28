@@ -19,13 +19,13 @@ To maintain absolute academic transparency, the methodology of this project is o
 ## 🧩 System Architecture & Engineering Roadmap
 
 ### 1. Sensing & Data Acquisition Subsystem 🟢 `[Status: Completed]`
-- **Hardware Connection:** Integrated a compatible Arduino UNO board with an **FSR404 Force Sensor** using a custom **Voltage Divider Circuit (分压电路)** via a 10kΩ pull-down resistor. The analog voltage signal is fed into the **A0 analog input pin**.
+- **Hardware Connection:** Integrated a compatible Arduino UNO board with an **FSR402 Force Sensor** using a custom **Voltage Divider Circuit (分压电路)** via a 10kΩ pull-down resistor. The analog voltage signal is fed into the **A0 analog input pin**.
 - **Data Visualization:** Real-time dynamic force tracking and signal plotting executed via integrated serial telemetry tools.
 - **Result:** Successfully achieved real-time dynamic data visualization.
 
 *(Below is the live sensor plot when force is applied)*
 
-<img src="fsr404-realtime-monitor-v1.0.png" width="100%">
+<img src="fsr402-realtime-monitor-v1.0.png" width="100%">
 
 *(Below is my physical hardware wiring setup)*
 
@@ -47,7 +47,7 @@ To maintain absolute academic transparency, the methodology of this project is o
 
 ### 3. Closed-Loop Pneumatic Control Subsystem 🚧 `[Status: Next Milestone]`
 - **Active Iteration:** Connecting a 1-channel 5V relay and a mini pneumatic pump to the Arduino UNO. 
-- **Feedback Loop Logic (阈值反馈闭环):** The FSR404 force sensor will be mounted on the **outer surface** of the soft robotic arm to detect environmental contact. The Arduino will process this analog feedback in real-time; once the contact force reaches a predefined threshold, the system will trigger a software interrupt to stop the inflation pump, preventing structural over-expansion and ensuring safe interactive force bounds.
+- **Feedback Loop Logic (阈值反馈闭环):** The FSR402 force sensor will be mounted on the **outer surface** of the soft robotic arm to detect environmental contact. The Arduino will process this analog feedback in real-time; once the contact force reaches a predefined threshold, the system will trigger a software interrupt to stop the inflation pump, preventing structural over-expansion and ensuring safe interactive force bounds.
 
 ### 4. Advanced Advanced Material Layer: Granular Jamming 🚀 `[Status: Conceptual Proposal]`
 - **Variable Stiffness Mechanism (可变刚度机制):** To bridge the gap between compliance and structural payload, I plan to wrap the soft arm in a custom outer jacket encapsulated with **coffee grounds** (micro-particles).
