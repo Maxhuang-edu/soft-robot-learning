@@ -13,7 +13,7 @@ except Exception as e:
 fig, ax = plt.subplots()
 ax.set_ylim(0, 1050)
 ax.set_xlim(0, 100)
-ax.set_title("FSR404 Real-time Pressure Monitor")
+ax.set_title("FSR402 Real-time Pressure Monitor")
 ax.set_ylabel("Weight / Force (g)")
 ax.grid(True)
 
