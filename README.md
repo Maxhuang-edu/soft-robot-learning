@@ -24,9 +24,12 @@ To maintain absolute academic transparency, the methodology of this project is o
 - **Result:** Successfully achieved real-time dynamic data visualization.
 
 *(Below is the live sensor plot when force is applied)*
-![Real-time Data Plot](fsr404-realtime-monitor-v1.0.png)
+
+<img src="fsr404-realtime-monitor-v1.0.png" width="100%">
+
 *(Below is my physical hardware wiring setup)*
-![Hardware Circuit Connection](hardware-circuit-setup.JPG)
+
+<img src="hardware-circuit-setup.JPG" width="100%">
 
 ### 2. Soft Actuator Subsystem 🟢 `[Status: Completed]`
 - **Design:** A 7-chamber PneuNet silicone soft actuator based on Harvard Toolkit and community modifications.
@@ -35,9 +38,12 @@ To maintain absolute academic transparency, the methodology of this project is o
   - **V2.0 (Success):** Successfully demolded after modifying the demolding strategy, applying a proper release agent, and optimizing the silicone degassing process within the smooth resin mold.
 
 *(Below is the comparison of my empirical learning process)*
-![Failed V1.0 vs Successful V2.0](failed-actuator-v1.0.JPG)
+
+<img src="failed-actuator-v1.0.JPG" width="100%">
+
 *(Below is the 3D printed resin mold prototype)*
-![3D Printed Molds](3d-printed-molds.JPG)
+
+<img src="3d-printed-molds.JPG" width="100%">
 
 ### 3. Closed-Loop Pneumatic Control Subsystem 🚧 `[Status: Next Milestone]`
 - **Active Iteration:** Connecting a 1-channel 5V relay and a mini pneumatic pump to the Arduino UNO. 
