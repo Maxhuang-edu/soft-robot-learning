@@ -1,4 +1,4 @@
-# soft-robot-learning
+<img width="480" height="853" alt="arduino_relay_valve_test" src="https://github.com/user-attachments/assets/5c89db3d-3a13-4559-b9a8-f875771906ed" /># soft-robot-learning
 # 🦾 Exploration in Pneumatic Soft Robotics (PneuNet)
 
 An undergraduate exploration in pneumatic soft robotics, utilizing open-source frameworks and AI assistance to learn hardware-software integration step by step. This repository serves as a transparent log of my initial engineering learning journey.
@@ -68,3 +68,8 @@ To resolve the manufacturing and stress concentration issues discovered during V
 - `/hardware_design`: `.stl` geometric files for the 7-chamber core, outer mold, and base mold.
 
 ---
+### 🔧 System Integration & Testing
+
+Successfully established the physical control loop from the Arduino to the pneumatic valve. The GIF below demonstrates the dynamic response of the system when triggered via the relay.
+
+![Pneumatic Valve Dynamic Response]( arduino_relay_valve_test..gif)
