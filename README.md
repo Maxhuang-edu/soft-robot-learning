@@ -1,4 +1,3 @@
-<img width="480" height="853" alt="arduino_relay_valve_test" src="https://github.com/user-attachments/assets/5c89db3d-3a13-4559-b9a8-f875771906ed" /># soft-robot-learning
 # 🦾 Exploration in Pneumatic Soft Robotics (PneuNet)
 
 An undergraduate exploration in pneumatic soft robotics, utilizing open-source frameworks and AI assistance to learn hardware-software integration step by step. This repository serves as a transparent log of my initial engineering learning journey.
